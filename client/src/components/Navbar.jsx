@@ -7,9 +7,16 @@ const Navbar = () => {
   const { user, logout } = useAuth();
 
   return (
-    <nav className="bg-gray-800 text-white p-4 flex justify-between items-center">
-      <div className="text-xl font-bold">Bikers Heaven</div>
-      <ul className="flex space-x-4">
+    <nav className="bg-gray-800 text-white p-4 flex justify-between items-center rounded-lg">
+      <div className="text-xl font-bold flex items-center">
+        <img
+          src="/biker heaven logo.png"
+          alt="Biker Heaven Logo"
+          className="h-10 w-56 mr-4 rounded-[25%]" // Increased width from w-40 to w-56
+          style={{ objectFit: 'cover' }}
+        />
+      </div>
+      <ul className="flex space-x-6">
         <li><Link to="/">Home</Link></li>
         <li><Link to="family">Our Family</Link></li>
         <li><Link to="about">About Us</Link></li>
@@ -21,16 +28,16 @@ const Navbar = () => {
           <>
             {user.role !== 'admin' && (
               <>
-                <Link to="/sell" className="bg-yellow-500 px-4 py-2 rounded mr-2">Sell</Link>
-                <Link to="/enquiry" className="bg-green-500 px-4 py-2 rounded mr-2">Send Enquiry</Link>
+                <Link to="/sell" className="bg-yellow-500 px-6 py-2 rounded-lg mr-3">Sell</Link>
+                <Link to="/enquiry" className="bg-green-500 px-6 py-2 rounded-lg mr-3">Send Enquiry</Link>
               </>
             )}
-            <button onClick={logout} className="bg-red-500 px-4 py-2 rounded">Logout</button>
+            <button onClick={logout} className="bg-red-500 px-6 py-2 rounded-lg">Logout</button>
           </>
         ) : (
           <>
-            <Link to="/login" className="bg-yellow-500 px-4 py-2 rounded mr-2">Login</Link>
-            <Link to="/signup" className="bg-green-500 px-4 py-2 rounded">Sign Up</Link>
+            <Link to="/login" className="bg-yellow-500 px-6 py-2 rounded-lg mr-3">Login</Link>
+            <Link to="/signup" className="bg-green-500 px-6 py-2 rounded-lg">Sign Up</Link>
           </>
         )}
       </div>
