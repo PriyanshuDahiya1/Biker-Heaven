@@ -122,9 +122,9 @@ function About() {
        Contact Us
       </h3>
       <p className="mt-4">
-      914, Bichpadi, near Dyal Singh Public School, Panipat, 132103, Haryana      </p>
+      Kharkhoda, 13402, Haryana      </p>
       <p className="mt-2">
-      Phone: +91 9350370846
+      Phone: +91 7015652437
             </p>
       <p className="mt-2">
       Sales@bikerheaven.com
