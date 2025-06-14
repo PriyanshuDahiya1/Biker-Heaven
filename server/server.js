@@ -316,6 +316,7 @@ app.post('/api/newsletter', async (req, res) => {
   }
 });
 
+const clientKey = process.env.CLIENT_KEY;
 
 
 app.listen(PORT, () => {
