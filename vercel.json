@@ -1,5 +1,9 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/client/index.html" }
+  ],
+  "redirects": [
+    { "source": "http://(.*)", "destination": "https://$1", "statusCode": 301 }
   ]
 }
+
