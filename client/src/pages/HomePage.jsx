@@ -13,7 +13,7 @@ const HomePage = () => {
     <><div className="content">
         <section className="relative bg-cover bg-center">
           <div className="absolute inset-0  opacity-50">
-            <img src="adventure.jpg" alt="" style={{ width: "100%", height: "700px" }} />
+            <img src="adventure.jpg" alt="" style={{ width: "100%", height: "770px" }} />
           </div>
           <div className="container mx-auto text-center py-24 relative z-10">
             <h1 className="text-4xl font-bold text-black" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
