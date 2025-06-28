@@ -16,7 +16,7 @@ const HomePage = () => {
             <img src="adventure.jpg" alt="" style={{ width: "100%", height: "770px" }} />
           </div>
           <div className="container mx-auto text-center py-24 relative z-10">
-            <h1 className="text-4xl font-bold text-black" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
+            <h1 className="text-4xl font-bold text-black mt-[80px]" style={{ fontFamily: "'Times New Roman', Times, serif", marginTop: '80px' }}>
               BIKERSHEAVEN <h3>WELCOMES YOU</h3>
               
       <div className="p-6 text-center">
@@ -47,10 +47,10 @@ const HomePage = () => {
         {/* <!-- About Us Section --> */}
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold text-red-600">
+            <h2 className="text-3xl font-bold text-black" style={{ color: '#111' }}>
               About us
             </h2>
-            <p className="mt-4 text-gray-700 max-w-2xl mx-auto">
+            <p className="mt-4 max-w-2xl mx-auto text-black" style={{ color: '#111', fontWeight: 600 }}>
               BIKERSHEAVEN is your one-stop destination for all things related to high-performance motorcycles. We offer a wide range of bikes from top brands, ensuring that you find the perfect ride to match your style and needs. Our team of experts is dedicated to providing exceptional service and support to all our customers.
             </p>
           </div>

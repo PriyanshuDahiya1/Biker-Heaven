@@ -1,0 +1,4 @@
+div > img {
+  background: none !important;
+  background-color: transparent !important;
+}
