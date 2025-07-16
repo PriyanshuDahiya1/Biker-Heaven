@@ -7,7 +7,15 @@ const Navbar = () => {
   const { user, logout } = useAuth();
 
   return (
-    <nav className="navbar fixed top-0 left-0 w-full bg-white text-black shadow z-50 flex justify-between items-center p-4">
+    <nav
+      className="navbar fixed top-0 left-0 w-full text-black z-50 flex justify-between items-center p-4"
+      style={{
+        backdropFilter: 'blur(30px)',
+        boxShadow: '0px 0px 30px rgba(227,228,237,0.37)',
+        border: '2px solid rgba(255,255,255,0.18)',
+        backgroundColor: 'rgba(255,255,255,0.6)'
+      }}
+    >
       <div className="text-xl font-bold flex items-center">
         <img
           src="/biker heaven logo.png"

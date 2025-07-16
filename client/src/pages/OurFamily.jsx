@@ -108,7 +108,7 @@ function OurFamily() {
        Contact Us
       </h3>
       <p className="mt-4">
-      Kharkhoda, 13402, Haryana      </p>
+      Kharkhoda, 131402, Haryana      </p>
       <p className="mt-2">
       Phone: +91 7015652437
             </p>
